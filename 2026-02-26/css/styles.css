@@ -11507,3 +11507,276 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+/* Custom polish - Stefan portfolio */
+:root {
+  --bs-primary: #14b8a6;
+  --bs-primary-rgb: 20, 184, 166;
+  --bs-secondary: #1e293b;
+  --bs-secondary-rgb: 30, 41, 59;
+  --bs-info: #60a5fa;
+  --bs-info-rgb: 96, 165, 250;
+  --bs-success: #22c55e;
+  --bs-success-rgb: 34, 197, 94;
+}
+
+body {
+  background: linear-gradient(180deg, #f8fbff 0%, #eef5ff 100%);
+}
+
+#mainNav {
+  background: rgba(30, 41, 59, 0.95) !important;
+  backdrop-filter: blur(8px);
+}
+
+#mainNav .navbar-brand {
+  letter-spacing: 0.04em;
+}
+
+#mainNav .navbar-toggler {
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 991.98px) {
+  #mainNav .navbar-toggler {
+    display: inline-flex;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-toggler {
+    display: none !important;
+  }
+}
+
+.masthead {
+  background: linear-gradient(135deg, #14b8a6 0%, #3b82f6 100%) !important;
+}
+
+.masthead .btn-light {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.masthead .badge.bg-light {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+.page-section {
+  position: relative;
+}
+
+.portfolio .portfolio-item {
+  box-shadow: 0 10px 25px rgba(30, 41, 59, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.portfolio .portfolio-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 35px rgba(30, 41, 59, 0.2);
+}
+
+.portfolio .portfolio-item + .mt-3 {
+  background: #fff;
+  border-radius: 0.75rem;
+  padding: 0.9rem;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+}
+
+.card {
+  border-radius: 1rem !important;
+}
+
+.btn {
+  border-radius: 0.8rem;
+}
+
+.btn-primary,
+.btn-outline-primary:hover,
+.bg-primary {
+  background-image: linear-gradient(135deg, #14b8a6 0%, #0ea5e9 100%);
+  border-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #0f172a;
+  background-color: #eafaf7;
+}
+
+.accordion-button:focus {
+  border-color: rgba(20, 184, 166, 0.4);
+  box-shadow: 0 0 0 0.25rem rgba(20, 184, 166, 0.2);
+}
+
+.footer {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+}
+
+html[data-theme="light"] {
+  color-scheme: light;
+}
+
+html[data-theme="light"] body {
+  color: #0f172a;
+}
+
+html[data-theme="light"] .text-muted {
+  color: #475569 !important;
+}
+
+html[data-theme="light"] .card,
+html[data-theme="light"] .accordion-item,
+html[data-theme="light"] .portfolio-modal .modal-content {
+  color: #0f172a;
+}
+
+html[data-theme="dark"] body {
+  background: linear-gradient(180deg, #0b1220 0%, #111827 100%);
+  color: #e5e7eb;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+html[data-theme="dark"] #mainNav .navbar-brand,
+html[data-theme="dark"] #mainNav .nav-link,
+html[data-theme="dark"] #mainNav .navbar-toggler {
+  color: #f8fafc !important;
+}
+
+html[data-theme="dark"] #mainNav .nav-link:hover,
+html[data-theme="dark"] #mainNav .nav-link:focus {
+  color: #a5f3fc !important;
+}
+
+html[data-theme="dark"] #mainNav {
+  background: rgba(8, 15, 30, 0.94) !important;
+}
+
+html[data-theme="dark"] .masthead {
+  background: linear-gradient(135deg, #0f766e 0%, #1d4ed8 100%) !important;
+}
+
+html[data-theme="dark"] .page-section-heading.text-secondary,
+html[data-theme="dark"] .text-secondary {
+  color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] .portfolio .portfolio-item + .mt-3 {
+  background: #0f172a;
+  box-shadow: 0 8px 24px rgba(2, 6, 23, 0.45);
+}
+
+html[data-theme="dark"] .portfolio .portfolio-item + .mt-3 h5,
+html[data-theme="dark"] .portfolio .portfolio-item + .mt-3 p {
+  color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] .text-muted {
+  color: #94a3b8 !important;
+}
+
+html[data-theme="dark"] .badge.bg-secondary {
+  background-color: #334155 !important;
+  color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] .card {
+  background: #0f172a;
+  border: 1px solid #1f2937 !important;
+  box-shadow: 0 8px 24px rgba(2, 6, 23, 0.35) !important;
+}
+
+html[data-theme="dark"] .card .card-body,
+html[data-theme="dark"] .card .card-title,
+html[data-theme="dark"] .card .small,
+html[data-theme="dark"] .card p,
+html[data-theme="dark"] .card span {
+  color: #e5e7eb !important;
+}
+
+html[data-theme="dark"] .masthead .badge.bg-light {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+html[data-theme="dark"] .list-group-item {
+  background-color: transparent;
+  color: #cbd5e1;
+  border-color: #243041;
+}
+
+html[data-theme="dark"] .alert-info {
+  background-color: rgba(37, 99, 235, 0.2);
+  color: #dbeafe;
+  border-color: rgba(59, 130, 246, 0.35);
+}
+
+html[data-theme="dark"] .accordion-item {
+  background-color: #0f172a;
+  border-color: #1f2937;
+}
+
+html[data-theme="dark"] .accordion-button {
+  background-color: #111827;
+  color: #e5e7eb;
+}
+
+html[data-theme="dark"] .accordion-button:not(.collapsed) {
+  color: #d1fae5;
+  background-color: #0b3a37;
+}
+
+html[data-theme="dark"] .accordion-body {
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .portfolio-modal .modal-content {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+html[data-theme="dark"] .portfolio-modal .btn-close {
+  filter: invert(1) grayscale(100%);
+}
+
+html[data-theme="dark"] .btn-outline-primary {
+  color: #93c5fd;
+  border-color: #60a5fa;
+}
+
+html[data-theme="dark"] .btn-outline-primary:hover,
+html[data-theme="dark"] .btn-outline-primary:focus {
+  color: #0b1220;
+  background-color: #93c5fd;
+  border-color: #93c5fd;
+}
+
+html[data-theme="dark"] .btn-outline-light {
+  color: #f8fafc;
+  border-color: #cbd5e1;
+}
+
+html[data-theme="dark"] .btn-outline-light:hover,
+html[data-theme="dark"] .btn-outline-light:focus {
+  color: #0b1220;
+  background-color: #e2e8f0;
+  border-color: #e2e8f0;
+}
+
+html[data-theme="dark"] .portfolio-modal .portfolio-modal-title {
+  color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] .footer {
+  background: linear-gradient(135deg, #0b1220 0%, #020617 100%);
+}
+
+html[data-theme="dark"] .copyright {
+  background-color: #020617;
+}
