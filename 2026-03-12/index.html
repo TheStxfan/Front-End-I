@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//IT"
+"http://www.w3.ord/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>My Simple Site</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('#slider').nivoSlider();
+            });
+        </script>
+
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Oswald:400,300" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>sito con slideshow</h1>
+            </div>
+            <div id="nav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <a href="http://www.google.com"><img src="img/times-square-people.jpg" alt="" title="Questa e' una slide" /></a>
+                    <img src="img/times-square-traffic.jpg" alt="" />
+                    <img src="img/times-square-horse.jpg" alt="" />
+                    <a href="http://www.google.com"><img src="img/times-square-people.jpg" alt="" title="Questa e' una slide" /></a>
+                </div>
+            </div>
+            <div class="item-evi">
+                <h2>Contenuto in evidenza</h2>
+                <p>Testo dell'articolo, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="item-evi">
+                <h2>Contenuto in evidenza</h2>
+                <p>Testo dell'articolo, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="item-evi">
+                <h2>Contenuto in evidenza</h2>
+                <p>Testo dell'articolo, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div id="mes-full">
+                <p>Messaggio Full Width</p>
+            </div>
+
+            <div id="content">
+                <div class="articolo">
+                    <img src="img/times-square.jpg" />
+                    <h2>Titolo dell'articolo</h2>
+                    <p>Testo dell'articolo, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div id="sidebar">
+                <h2>Sidebar</h2>
+                <ul>
+                    <li><a href="#">My Link</a></li>
+                    <li><a href="#">My Link</a></li>
+                    <li><a href="#">My Link</a></li>
+                    <li><a href="#">My Link</a></li>
+                    <li><a href="#">My Link</a></li>
+                    <li><a href="#">My Link</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="item-evi">
+                <h2>Info</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="item-evi">
+                <h2>Info</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="item-evi">
+                <h2>Info</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <footer id="footer"><p>Footer</p></footer>
+        </div>
+    </body>
+</html>
