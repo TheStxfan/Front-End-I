@@ -70,6 +70,7 @@ body {
     flex: 1;
     display: flex;
     justify-content: center;
+    padding-left: 65px;
 }
 
 .nav-links {
